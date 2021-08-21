@@ -1,5 +1,7 @@
 package com.lijian.jianpay.service;
 
+import com.lly835.bestpay.model.PayResponse;
+
 import java.math.BigDecimal;
 
 public interface IPayService {
@@ -7,5 +9,5 @@ public interface IPayService {
     /**
      * 发起支付
      */
-    public void create(String orderId, BigDecimal amount);
+    public PayResponse create(String orderId, BigDecimal amount);
 }
