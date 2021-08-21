@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: shuaige
+    url: jdbc:mysql://127.0.0.1:3308/mall?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true
+#  mapper-locations: classpath:mappers/*.xml
+logging:
+  pattern:
+    console: "[%thread] %-5level  %logger{36} - %msg%n"
+
+
